@@ -1,0 +1,42 @@
+textarea {
+  width: 100%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  padding: 25px;
+}
+
+.App {
+  display: flex;
+}
+
+.input-section {
+  width: 50%;
+  padding: 30px;
+}
+
+.markdown-title {
+  color: teal;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.output-section {
+  width: 50%;
+  padding: 30px;
+}
+
+.output-text {
+  border: 1px dotted;
+  padding: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .App {
+      flex-direction: column;
+    }
+    .output-section  {
+        width: 100%;
+    }
+    .input-section  {
+        width: 100%;
+    }
+}
